@@ -1,4 +1,5 @@
 ---
-- name: run show version on remote devices
-  nxos_command:
-    commands: show version
+  task
+  - name: run show version on remote devices
+    nxos_command:
+      commands: show version
