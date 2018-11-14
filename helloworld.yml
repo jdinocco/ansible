@@ -3,6 +3,6 @@
   hosts: all
 
   tasks:
-- name: run show version on remote devices
-  nxos_command:
-    commands: show version
+  - name: run show version on remote devices
+      nxos_command:
+        commands: show version
